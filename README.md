@@ -5,15 +5,17 @@ version of Markdown that have, at least aesthetically, made reading a readme mor
 
 The first, is being able to block notes and warnings in their own blocks
 
-## Now and Warning Blockquotes
+## Note and Warning Blockquotes
 
 To accomplish these, you begin a new Blockquote `>` with either **Note** or **Warning**
 the complete the contents of your block quote. Github's Markdown will then style them to the following
 
 > **Note**
+> 
 > If you're experiencing problems with A, do B
 
 > **Warning**
+> 
 > Please be careful when you run process X. It runs against production and you might accidentally delete the whole SQL databse.
 
 As of the latest revision, only Note and Warning are supported.
